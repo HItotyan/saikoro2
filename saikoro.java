@@ -9,5 +9,12 @@ int val2=rand.nextInt(6)+1;
 System.out.println("Die2:" + val2);
 int goukei=val1+val2;
 System.out.println("Total value:" + goukei);
+if(goukei>7){
+System.out.println("You won");
+};
+if(goukei<=7){
+    System.out.println("You lost");
+};
 }
 }
+
