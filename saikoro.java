@@ -1,7 +1,13 @@
 import java.util.Random;
+import java.util.Scanner;
 public class saikoro {
 public static void main(String[] args) {
     Random rand = new Random();
+    Scanner scanner=new Scanner(System.in);
+    System.out.println("What is your name?");
+    System.out.print(">");
+    String input_text=scanner.nextLine();
+    System.out.println("Hello,"+input_text+"!");
 System.out.println("Rolling the dice");
 int val1=rand.nextInt(6)+1;
 System.out.println("Die1:" + val1);
