@@ -16,10 +16,10 @@ System.out.println("Die2:" + val2);
 int goukei=val1+val2;
 System.out.println("Total value:" + goukei);
 if(goukei>7){
-System.out.println("You won");
+System.out.println(input_text+" won");
 };
 if(goukei<=7){
-    System.out.println("You lost");
+    System.out.println(input_text+" lost");
 };
 }
 }
